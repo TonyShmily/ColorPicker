@@ -89,7 +89,7 @@ class ViewController: NSViewController {
         
         tbAndroid.stringValue = " Color.parseColor(\(t16))"
         
-        tbSwift.stringValue = "UIColor(red: \(lbRed.stringValue)/255, green: \(lbGreen.stringValue)/255, blue: \(lbBlue.stringValue)/255, alpha: \(lbAlpha.stringValue)/100))"
+        tbSwift.stringValue = "UIColor(red: \(lbRed.stringValue)/255, green: \(lbGreen.stringValue)/255, blue: \(lbBlue.stringValue)/255, alpha: \(lbAlpha.stringValue)/100)"
         tbSwiftNS.stringValue = "NSColor(calibratedRed: \(lbRed.stringValue)/255, green: \(lbGreen.stringValue)/255, blue: \(lbBlue.stringValue)/255, alpha: \(lbAlpha.stringValue)/100)"
     }
         
